@@ -11,7 +11,7 @@ import java.util.Scanner;
 // 주요 단어 영문 이름 선정
 // 입력(input), 정수(decimal), 출력(output), 합(plus)
 
-public class Main1 {
+public class MainPlusfor {
     // 두 정수의 합 함수
     public int plus(int input_first, int input_second) {
         int output = input_first + input_second;
@@ -34,7 +34,7 @@ public class Main1 {
             int input_first = sc.nextInt();
             int input_second = sc.nextInt();
             // 처리
-            Main1 main = new Main1();
+            MainPlusfor main = new MainPlusfor();
             int output = main.plus(input_first, input_second);
             // 출력
             System.out.println(output);
