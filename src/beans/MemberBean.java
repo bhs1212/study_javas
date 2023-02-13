@@ -1,10 +1,15 @@
 package beans;
 
 public class MemberBean {
-    protected String firstName;
-    protected String secondName;
-    protected String handleName;
+    private String firstName;
+    private String secondName;
+    private String handleName;
 
+    public MemberBean(String firstName, String secondName, String handleName){
+        this.firstName = firstName;
+        this.secondName = secondName;
+        this.handleName = handleName;
+    }
     public String getFirstName(){
         return this.firstName;
     }
